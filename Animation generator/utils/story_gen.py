@@ -1,7 +1,7 @@
 import json
 from typing import Dict
 from config import Config
-
+# You can use LLM chatbox to generate high quality and accurate scripts in json format
 class StoryGenerator:
     def validate_script(self, script_json: str) -> Dict:
         try:
